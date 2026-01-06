@@ -21,7 +21,7 @@ function setup() {
   layer2 = new Riso("fluorescentpink");
 
   if (!table || table.getRowCount() === 0) {
-    console.error("ocean_data.csv did not load or is empty");
+    console.error("../ocean_data.csv did not load or is empty");
     return;
   }
 
