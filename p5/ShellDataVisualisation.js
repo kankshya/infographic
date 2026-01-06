@@ -9,6 +9,7 @@ let yearProgress = 0;
 function preload() {
   // force absolute path so it does NOT resolve to index.html
   table = loadTable("../ocean_data.csv", "csv", "header");
+
 }
 
 

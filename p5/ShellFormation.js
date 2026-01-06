@@ -8,7 +8,9 @@ let fade = 0;       // 0..255 overall opacity
 let table1;
 
 function preload() {
-  table1 = loadTable("/ocean_data.csv", "csv", "header");
+table1 = loadTable("../ocean_data.csv", "csv", "header");
+
+
 }
 
 function resetShell() {
