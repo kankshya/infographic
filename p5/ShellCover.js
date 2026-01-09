@@ -85,7 +85,7 @@ noLoop();
 
 function draw() {
 clearRiso();
-background(220);
+background(20);
 
 
 // large faint shells in the background
